@@ -1,4 +1,3 @@
-
 /* ==============================
    General settings
    ============================== */
@@ -69,7 +68,7 @@ nav {
 
 .hero {
     background: #f5f7fa;
-    padding: 100px 25px;
+    padding: 80px 25px;
 }
 
 .hero-content {
@@ -80,10 +79,13 @@ nav {
     align-items: center;
     justify-content: space-between;
 
-    gap: 70px;
+    gap: 50px;
 }
 
-/* Text */
+
+/* ==============================
+   Hero text
+   ============================== */
 
 .hero-text {
     flex: 1;
@@ -91,49 +93,53 @@ nav {
 
 .eyebrow {
     color: #0066cc;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 48px;
     line-height: 1.1;
-    margin: 0 0 15px 0;
+    margin: 0 0 12px 0;
 }
 
 .hero h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
     color: #555;
-    margin: 0 0 25px 0;
+    margin: 0 0 20px 0;
 }
 
 .hero-description {
     max-width: 650px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.7;
     color: #555;
 }
 
 
-/* Profile image */
+/* ==============================
+   Profile image
+   ============================== */
 
 .hero-image {
     flex-shrink: 0;
 }
 
 .hero-image img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
 
     object-fit: cover;
 
     border-radius: 50%;
 
-    border: 6px solid white;
+    border: 5px solid white;
 
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+
+    display: block;
 }
 
 
@@ -142,13 +148,13 @@ nav {
    ============================== */
 
 .hero-buttons {
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .button {
     display: inline-block;
 
-    padding: 12px 25px;
+    padding: 11px 22px;
     margin: 5px 5px 5px 0;
 
     background: #0066cc;
@@ -174,39 +180,6 @@ nav {
 }
 
 
-
-
-/* ==============================
-   Buttons
-   ============================== */
-
-.hero-buttons {
-    margin-top: 35px;
-}
-
-.button {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 5px;
-
-    background: #0066cc;
-    color: white;
-
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background: #004f9e;
-}
-
-.button.secondary {
-    background: white;
-    color: #0066cc;
-    border: 1px solid #0066cc;
-}
-
-
 /* ==============================
    Sections
    ============================== */
@@ -229,9 +202,7 @@ section h2 {
 
 .research-grid {
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 25px;
 }
 
@@ -279,11 +250,8 @@ a {
 
 footer {
     text-align: center;
-
     padding: 30px;
-
     background: #f5f7fa;
-
     color: #777;
 }
 
@@ -304,13 +272,13 @@ footer {
     }
 
     .hero {
-        padding: 70px 20px;
+        padding: 60px 20px;
     }
 
     .hero-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
-        gap: 40px;
+        gap: 30px;
     }
 
     .hero h1 {
@@ -326,15 +294,11 @@ footer {
     }
 
     .hero-image img {
-        width: 220px;
-        height: 220px;
+        width: 180px;
+        height: 180px;
     }
 
     .research-grid {
         grid-template-columns: 1fr;
     }
-
 }
-
-
-
