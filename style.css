@@ -475,3 +475,11 @@ section {
         flex: 0 0 85%;
     }
 }
+.talk-card img {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.talk-card img:hover {
+    opacity: 0.85;
+}
