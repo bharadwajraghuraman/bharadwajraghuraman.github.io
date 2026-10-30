@@ -412,3 +412,9 @@ footer {
     }
 }
 
+/* Reduce vertical spacing between major sections */
+section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
