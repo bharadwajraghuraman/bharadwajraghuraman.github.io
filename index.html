@@ -1,372 +1,258 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Academic website of Bharadwaj Raghuraman, PhD Researcher at ETH Zurich, specialising in power electronics and electric drivetrains.">
-    <title>Bharadwaj Raghuraman | Power Electronics & Electric Drivetrains</title>
+
+    <title>Bharadwaj Raghuraman</title>
+    <meta name="description" content="Bharadwaj Raghuraman is a PhD researcher at ETH Zurich working on power electronics and electric drivetrains.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar">
-        <a href="#about" class="logo">BR</a>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Bharadwaj Raghuraman</div>
 
-<main>
-
-    <!-- HERO SECTION -->
-    <section class="hero" id="about">
-        <div class="hero-content">
-            <p class="eyebrow">PhD Researcher · ETH Zurich</p>
-
-            <h1>Bharadwaj Raghuraman</h1>
-
-            <h2>Power Electronics & Electric Drivetrains</h2>
-
-            <p>
-                I am a PhD researcher at ETH Zurich, working on advanced
-                power electronic converters and electric drive systems.
-                My research focuses on multilevel inverters, modulation
-                strategies, loss optimisation and the interaction between
-                power converters and electrical machines.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#research" class="button">Research</a>
-                <a href="#publications" class="button button-outline">
-                    Publications
-                </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <a href="#presentations">Presentations</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
+    </nav>
 
-        <div class="hero-image">
-            <img src="images/Bharadwaj_Raghuraman.jpg"
-                 alt="Bharadwaj Raghuraman">
+
+    <!-- Main introduction -->
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">
+                    PhD Researcher · ETH Zurich
+                </p>
+
+                <h1>Bharadwaj Raghuraman</h1>
+
+                <h2>
+                    Power Electronics &amp; Electric Drivetrains
+                </h2>
+
+                <p class="hero-description">
+                    I work on the system-level optimisation of next-generation
+                    electric drivetrains, with a focus on multilevel power
+                    converters, modulation techniques, and electric machines.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#research" class="button">
+                        Research
+                    </a>
+
+                    <a href="#publications" class="button secondary">
+                        Publications
+                    </a>
+
+                    <a
+                        href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
+                        class="button secondary"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Google Scholar
+                    </a>
+
+                    <a href="#contact" class="button secondary">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="images/Bharadwaj_Raghuraman.jpg"
+                    alt="Bharadwaj Raghuraman">
+
+            </div>
+
         </div>
-    </section>
+
+    </header>
 
 
-    <!-- ABOUT SECTION -->
-    <section class="section">
+    <!-- About section -->
+    <section id="about">
+
         <h2>About Me</h2>
 
         <p>
-            I am currently pursuing a PhD at the High Power Electronics
-            Laboratory, ETH Zurich, under the supervision of
-            Prof. Dr. Jürgen Biela.
+            I am a PhD researcher at ETH Zurich working on the system-level
+            optimisation of electric drivetrains, with a focus on power
+            electronics, multilevel inverters, and electric machines.
         </p>
 
         <p>
-            My research lies at the intersection of power electronics
-            and electric machine design, with a particular interest
-            in high-performance electric vehicle drivetrains.
-            I am interested in developing converter topologies and
-            control strategies that improve system-level efficiency,
-            power density and electromagnetic compatibility.
+            My research focuses on developing efficient and reliable
+            next-generation electric drivetrain systems using advanced
+            power semiconductor technologies and modulation techniques.
         </p>
 
         <p>
-            Before joining ETH Zurich, I worked in the automotive
-            and aerospace industries, contributing to electric
-            machine design and optimisation for applications
-            ranging from passenger vehicles to high-performance
-            and aerospace electric propulsion systems.
+            Before starting my PhD, I gained industry experience in electric
+            machine design and engineering across the automotive and aerospace
+            sectors.
         </p>
+
     </section>
 
 
-    <!-- RESEARCH SECTION -->
-    <section class="section" id="research">
-        <h2>Research Interests</h2>
+    <!-- Research section -->
+    <section id="research">
+
+        <h2>Research</h2>
 
         <div class="research-grid">
 
             <div class="research-card">
                 <h3>Multilevel Inverters</h3>
                 <p>
-                    Design and optimisation of multilevel power
-                    converters, particularly flying capacitor
-                    inverter topologies for high-voltage EV
-                    drivetrains.
+                    Four-level Flying Capacitor inverters and their application
+                    in high-voltage electric drivetrains.
                 </p>
             </div>
 
             <div class="research-card">
-                <h3>PWM & Modulation</h3>
+                <h3>PWM &amp; Modulation</h3>
                 <p>
-                    Advanced modulation strategies, switching
-                    sequence optimisation, capacitor voltage
-                    balancing and loss-aware PWM.
+                    Optimisation of PWM schemes and voltage distribution for
+                    improved drivetrain efficiency.
                 </p>
             </div>
 
             <div class="research-card">
                 <h3>Electric Machines</h3>
                 <p>
-                    Electromagnetic design, efficiency optimisation
-                    and system-level analysis of electric machines
-                    for automotive applications.
+                    Modelling and optimisation of electric machine losses
+                    for system-level drivetrain optimisation.
                 </p>
             </div>
 
             <div class="research-card">
-                <h3>EMI & Bearing Currents</h3>
+                <h3>EMI &amp; Bearing Currents</h3>
                 <p>
-                    Common-mode and differential-mode noise
-                    modelling, electromagnetic compatibility
-                    and bearing current analysis in electric drives.
+                    Investigation of electromagnetic interference and
+                    common-mode currents in electric drive systems.
                 </p>
             </div>
 
         </div>
+
     </section>
 
 
-    <!-- PUBLICATIONS SECTION -->
-    <section class="section" id="publications">
+    <!-- Publications section -->
+    <section id="publications">
+
         <h2>Publications</h2>
 
-        <p class="section-intro">
-            My research contributions in power electronics and
-            electrical machine design. For the complete and
-            up-to-date publication list, visit my
-            <a href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
-               target="_blank" rel="noopener noreferrer">
+        <p>
+            For my complete and up-to-date publication record, visit my
+            <a
+                href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer">
                 Google Scholar profile
             </a>.
         </p>
 
-        <h3 class="subsection-title">Conference Publications</h3>
+        <div class="publication">
 
-        <ol class="publication-list">
+            <p class="publication-type">Conference paper · PCIM Europe 2026</p>
 
-            <li>
-                <strong>
-                    Optimised PWM Schemes and Voltage Distribution
-                    in Four-Level Flying Capacitor Inverters for EVs
-                </strong>
-                <p>
-                    Bharadwaj Raghuraman, Jürgen Biela.
-                    <em>PCIM Europe 2026</em>, 2026.
-                </p>
-            </li>
+            <h3>
+                Optimised PWM Schemes and Voltage Distribution in
+                Four-Level Flying Capacitor Inverters for EVs
+            </h3>
 
-            <li>
-                <strong>
-                    Multi-objective optimisation of axial flux
-                    Permanent magnet motor for super-car application
-                </strong>
-                <p>
-                    Jorge Luis Lora, Bharadwaj Raghuraman,
-                    Bruno Ricardo Marques, Dragos Mihai Postariu,
-                    Gianmario Pellegrino.
-                    <em>2024 International Conference on Electrical
-                    Machines (ICEM)</em>, 2024, pp. 1–7.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/10700112"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
+            <p class="publication-authors">
+                Bharadwaj Raghuraman, Jürgen Biela
+            </p>
 
-            <li>
-                <strong>
-                    Aluminum hairpin solution for electrical machines
-                    in e-mobility applications: Part I:
-                    Electromagnetic aspects
-                </strong>
-                <p>
-                    G. Cutuli, D. Barater, S. Nategh,
-                    B. Raghuraman.
-                    <em>2022 International Conference on Electrical
-                    Machines (ICEM)</em>, 2022, pp. 1770–1776.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9910945"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-            <li>
-                <strong>
-                    Unsymmetrical pole design vs skewing for improving
-                    NVH characteristics and performance of high speed
-                    PMSM electric machines
-                </strong>
-                <p>
-                    Tommaso Bertoncello, Giovanni Franceschini,
-                    Bharadwaj Raghuraman, Michela Diana,
-                    Anton Lidbeck.
-                    <em>IECON 2022 – 48th Annual Conference of the
-                    IEEE Industrial Electronics Society</em>, 2022.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9968492"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-            <li>
-                <strong>
-                    Design and optimization of induction machines
-                    for E-mobility applications
-                </strong>
-                <p>
-                    Bharadwaj Raghuraman, Shafigh Nategh,
-                    Aldo Boglietti, Torbjörn Thiringer,
-                    Kim Bergsro.
-                    <em>2022 International Conference on Electrical
-                    Machines (ICEM)</em>, 2022, pp. 2142–2148.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9910692"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-            <li>
-                <strong>
-                    Sustainability aspects of electrical machines
-                    for e-mobility applications Part I: A design
-                    with reduced rare-earth elements
-                </strong>
-                <p>
-                    Bharadwaj Raghuraman, Shafigh Nategh,
-                    Nikitas Sidiropoulos, Linnea Petersson,
-                    Aldo Boglietti.
-                    <em>IECON 2021 – 47th Annual Conference of the
-                    IEEE Industrial Electronics Society</em>, 2021.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9589246"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-            <li>
-                <strong>
-                    Sustainability aspects of electrical machines
-                    for e-mobility applications Part II:
-                    Aluminium hairpin vs. copper hairpin
-                </strong>
-                <p>
-                    Alessandro Acquaviva, Michela Diana,
-                    Bharadwaj Raghuraman, Linnea Petersson,
-                    Shafigh Nategh.
-                    <em>IECON 2021 – 47th Annual Conference of the
-                    IEEE Industrial Electronics Society</em>, 2021.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/9589649"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-            <li>
-                <strong>
-                    Power quality conditioner and load management
-                    system for an integrated residential grid
-                </strong>
-                <p>
-                    Bharadwaj Raghuraman, Ramasubramaniam R,
-                    Tarun Bajaj, Srinivasan K. R., P. Meena.
-                    <em>2015 IEEE Region 10 International Conference
-                    (TENCON)</em>, 2015.
-                </p>
-                <a href="https://ieeexplore.ieee.org/document/7373003"
-                   target="_blank" rel="noopener noreferrer">
-                    IEEE Xplore
-                </a>
-            </li>
-
-        </ol>
-
-
-        <h3 class="subsection-title">Theses</h3>
-
-        <ol class="publication-list">
-
-            <li>
-                <strong>
-                    Electric machine design based on drive cycle analysis
-                </strong>
-                <p>
-                    Bharadwaj Raghuraman, Tom Gyllensten.
-                    <em>Master's Thesis, Chalmers University of
-                    Technology</em>, 2019.
-                </p>
-                <a href="https://odr.chalmers.se/items/6f895559-3ebf-4b2c-b8ff-c104acb88a17"
-                   target="_blank" rel="noopener noreferrer">
-                    Chalmers Open Digital Repository
-                </a>
-            </li>
-
-        </ol>
-
-        <a class="button scholar-button"
-           href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
-           target="_blank" rel="noopener noreferrer">
-            View Google Scholar Profile
-        </a>
-
-    </section>
-
-
-    <!-- EXPERIENCE SECTION -->
-    <section class="section" id="experience">
-        <h2>Professional Experience</h2>
-
-        <div class="experience-list">
-
-            <div class="experience-item">
-                <h3>ETH Zurich</h3>
-                <p>PhD Researcher · High Power Electronics Laboratory</p>
-            </div>
-
-            <div class="experience-item">
-                <h3>Rolls-Royce</h3>
-                <p>Electrical and aerospace electric machine design</p>
-            </div>
-
-            <div class="experience-item">
-                <h3>Koenigsegg Automotive</h3>
-                <p>Senior Motor Design Engineer</p>
-            </div>
-
-            <div class="experience-item">
-                <h3>Volvo Cars</h3>
-                <p>Electromagnetic design of electric machines</p>
-            </div>
-
-            <div class="experience-item">
-                <h3>Mercedes-Benz R&D</h3>
-                <p>Research and development · India</p>
-            </div>
+            <!-- Add a paper or conference link here when available. -->
 
         </div>
+
+        <!-- Add further verified publications below using the same format. -->
+
     </section>
 
 
-    <!-- CONTACT SECTION -->
-    <section class="section" id="contact">
+    <!-- Presentations section -->
+    <section id="presentations">
+
+        <h2>Presentations</h2>
+
+        <p>
+            Selected conference presentations, research talks, and technical
+            presentations will be listed here.
+        </p>
+
+        <!--
+        Example format:
+
+        <div class="publication">
+            <p class="publication-type">Conference presentation · Year</p>
+            <h3>Presentation title</h3>
+            <p>Conference or event name</p>
+            <p><a href="LINK_TO_PRESENTATION">View presentation</a></p>
+        </div>
+        -->
+
+    </section>
+
+
+    <!-- Experience section -->
+    <section id="experience">
+
+        <h2>Professional Experience</h2>
+
+        <p>
+            Before beginning my PhD, I worked on electric machines and
+            engineering projects in the automotive and aerospace industries.
+        </p>
+
+        <!--
+        We can develop this into a professional timeline containing:
+        - Company and position
+        - Location
+        - Employment dates
+        - A short description of your work
+        -->
+
+    </section>
+
+
+    <!-- Contact section -->
+    <section id="contact">
+
         <h2>Contact</h2>
 
         <p>
-            I welcome discussions and collaborations related to
-            power electronics, electric machines and electric
-            vehicle drivetrains.
+            If you are interested in my research or would like to get in touch,
+            feel free to contact me.
         </p>
 
         <p>
@@ -377,24 +263,27 @@
         </p>
 
         <p>
-            <a href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
-               target="_blank" rel="noopener noreferrer">
+            <a
+                href="https://scholar.google.com/citations?user=Mz1qxz4AAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer">
                 Google Scholar
             </a>
-            &nbsp; | &nbsp;
-            <a href="https://www.linkedin.com/in/bharadwaj-raghuraman/"
-               target="_blank" rel="noopener noreferrer">
-                LinkedIn
-            </a>
         </p>
+
     </section>
 
-</main>
 
+    <!-- Footer -->
+    <footer>
 
-<footer>
-    <p>© 2026 Bharadwaj Raghuraman</p>
-</footer>
+        <p>
+            &copy; 2026 Bharadwaj Raghuraman
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
+```
