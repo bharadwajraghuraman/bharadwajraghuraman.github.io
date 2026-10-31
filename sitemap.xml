@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+  
+  <!-- Your main homepage -->
+  <url>
+    <loc>https://bharadwajraghuraman.github.io/o</loc>
+    <priority>1.0</priority>
+  </url>
+
+
+  <!-- Your Research or Publications page -->
+  <url>
+    <loc>https://bharadwajraghuraman.github.io/#publications</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
